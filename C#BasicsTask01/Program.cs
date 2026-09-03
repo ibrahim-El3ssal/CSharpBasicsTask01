@@ -47,6 +47,16 @@
             }
 
             #endregion
+
+            #region Question05
+
+            int pages2 = 300;
+            double ResultPages = pages2;
+
+            Console.WriteLine(ResultPages);
+
+            #endregion
+
         }
     }
 }
