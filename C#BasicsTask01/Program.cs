@@ -14,6 +14,16 @@
             Console.WriteLine(obj);
 
             #endregion
+
+            #region Question02
+
+            Console.WriteLine(book.ToString());
+            Console.WriteLine(book.Equals(book));
+            Console.WriteLine(book.GetHashCode());
+            Console.WriteLine(book.GetType());
+            #endregion
+
+
         }
     }
 }
