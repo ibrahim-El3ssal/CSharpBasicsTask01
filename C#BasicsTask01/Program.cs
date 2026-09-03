@@ -29,6 +29,24 @@
             int pages = 464;
 
             #endregion
+
+            #region Question04 
+
+            try
+            {
+                int x = 0;
+                int result = 10 / x;
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
+            #endregion
         }
     }
 }
