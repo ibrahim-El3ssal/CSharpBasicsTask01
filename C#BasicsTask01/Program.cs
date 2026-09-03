@@ -23,7 +23,12 @@
             Console.WriteLine(book.GetType());
             #endregion
 
+            #region Question03
+            //  Compile-time Error ------- you can't put text (string) into an int variable.  
 
+            int pages = 464;
+
+            #endregion
         }
     }
 }
